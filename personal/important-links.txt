@@ -1,0 +1,15 @@
+FCC general:
+https://www.reddit.com/r/learnprogramming/comments/aptw5u/is_it_possible_to_actually_getting_a_job_knowing/
+https://forum.freecodecamp.org/t/what-do-i-do-next-after-frontend-certificate/177016/3
+https://www.reddit.com/r/learnprogramming/comments/7hc2ai/my_6_month_progress_report/
+
+Bundlers:
+https://parceljs.org/
+https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70
+
+Projects:
+https://jsbeginners.com/javascript-projects-for-beginners/
+https://mikkegoes.com/javascript-projects-for-beginners/
+
+Code Wars:
+https://www.codewars.com/kata/search/javascript?q=&r[]=-8&order_by=satisfaction_percent%20desc,total_completed%20desc

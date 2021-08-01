@@ -2,18 +2,16 @@
 
 ```py
 def primeChecker(n):
-   if n == 0 or n == 1 or n == -1: return False
+   if n <= 1: return False
    for x in range(2, n):
-      if n % x == 0:
-         return False
+      if n % x == 0: return False
    return True
 
 def primes(n):
    primes = []
    x = 1
    while len(primes) < n:
-      if primeChecker(x):
-         primes.append(x)
+      if primeChecker(x): primes.append(x)
       x = x + 1
    return primes[-1]
 ```

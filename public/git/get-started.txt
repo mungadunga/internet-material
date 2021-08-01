@@ -1,0 +1,4 @@
+>> git init
+>> write some code in demo.txt
+>> git add demo.txt
+>> git status
