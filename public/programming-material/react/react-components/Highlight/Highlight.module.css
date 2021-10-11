@@ -1,0 +1,37 @@
+#e_45h::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+#e_45h:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#e_45h::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+#e_45h {
+  position: relative;
+}
+#container_43243 {
+  block-size: 100%;
+  inline-size: 100%;
+}
+#container_438 {
+  margin: 0;
+  display: inline-block;
+}
+@media (orientation: landscape) {
+  #container_438 {
+    grid-auto-flow: column;
+  }
+}
